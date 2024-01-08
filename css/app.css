@@ -1,0 +1,37 @@
+html{
+  box-sizing: border-box;
+}
+*, *::before, *::after{
+  box-sizing: inherit;
+}
+
+.nombre-sitio{
+  margin-top: 50px;
+  margin-bottom: 0px;
+}
+
+.nombre-sitio span {
+  color: #037bc0;
+}
+
+.enlace {
+  text-transform: uppercase;
+  font-weight: bold;
+  text-decoration: none;
+  color: #037bc0;
+}
+
+
+/*Box model*/
+
+.sobre-nosotros{
+  background-color: red;
+  width: 200px;
+  padding: 25px;
+}
+
+.sobre-empresa{
+  background-color: blue;
+  width: 500px;
+  padding: 100px;
+}
